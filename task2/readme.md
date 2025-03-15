@@ -77,8 +77,8 @@ console.log(isEven(1001)); // Output: false
 **Fungsi:**
 
 ```js
-function removeFirstOccurrence(str, search) {
-    return str.replace(search, "");
+function removeFirstOccurrence(string, search) {
+    return string.replace(search, "");
 }
 ```
 
@@ -93,9 +93,9 @@ console.log(removeFirstOccurrence("lorem ipsum dolor", "rem ip")); // Output: lo
 **Fungsi:**
 
 ```js
-function isPalindrome(str) {
-    let reversed = str.split("").reverse().join("");
-    return str === reversed;
+function isPalindrome(word) {
+    let reversed = word.split("").reverse().join("");
+    return word === reversed;
 }
 ```
 
@@ -116,12 +116,16 @@ Kode ini dibuat untuk menyelesaikan berbagai tugas pemrograman dasar menggunakan
 
 ## 🚀 Cara Menjalankan Kode
 
-1. Salin kode ke dalam file **script.js**
-2. Jalankan menggunakan Node.js dengan perintah:
+1. Clone repositori ini, dengan perintah **git clone**:
     ```sh
-    node script.js
+    git clone https://github.com/praditia12/Web-Client-Dev.git
     ```
-3. Alternatif lain, jalankan di browser dengan memasukkan kode ke dalam **console JavaScript** di DevTools.
+2. Masuk ke **folder** filename yang ingin dijalankan, lalu
+3. Jalankan menggunakan Node.js dengan perintah:
+    ```sh
+    node filename.js
+    ```
+4. Alternatif lain, jalankan di browser dengan memasukkan kode ke dalam **console JavaScript** di DevTools.
 
 ---
 
