@@ -1,13 +1,3 @@
-// angleOfTriangle
-let angleA;
-let angleB;
-
-let angleOfTriangle = (angleA, angleB) => {
-    return 180 - (angleA + angleB);
-};
-
-console.log(angleOfTriangle(80, 65));
-
 // differenceBetweenDates
 let date1;
 let date2;
