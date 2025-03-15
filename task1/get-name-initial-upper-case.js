@@ -1,7 +1,5 @@
 // getNameInitialUpperCase
-let name;
-
-let getNameInitialUpperCase = (name) => {
+const getNameInitialUpperCase = (name) => {
     return name.match(/[A-Z]/g)?.join("") || "";
 };
 
